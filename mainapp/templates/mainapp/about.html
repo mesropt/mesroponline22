@@ -1,0 +1,23 @@
+{% extends 'mainapp/base.html' %}
+{% load staticfiles %}
+
+
+{% block menu %}
+<div class="hero">
+    <div class="header clearfix">
+        {% include 'mainapp/includes/inc_menu.html' %}
+    </div>
+    <h1 style="text-align: center">About me</h1>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <p>My name is Mesrop Tarkhanyan. I'm from Yerevan, Armenia.</p>
+    <img src="{% static 'img/mesrop-main-photo.jpeg' %}" alt="" width="400" height="550" id="hp"/>
+
+
+</div>
+
+<div class="clr"></div>
+{% endblock %}

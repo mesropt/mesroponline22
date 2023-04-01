@@ -659,14 +659,14 @@ td:first-child {
 	margin-top: 30px;
 }
 .social1{
-	background: url(img/social-links.png);
+	background: url(img/facebook-icon.svg);
 	height: 28px;
 	width: 28px;
 	float: left;
 
 }
 .social2{
-	background: url(img/social-links.png);
+	background: url(img/telegram-icon.svg);
 	background-position: -34px 0px;
 	height: 28px;
 	width: 28px;
